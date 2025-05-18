@@ -1,0 +1,2 @@
+# MySQL_hands_on_check
+スキル面談用MySQLハンズオン
