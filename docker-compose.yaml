@@ -2,6 +2,7 @@ services:
   mysql:
     build: .
     container_name: mysql-container
+    platform: linux/amd64
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: rootpassword
