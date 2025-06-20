@@ -5,14 +5,22 @@
 
 以下の手順でMySQLのハンズオン環境をセットアップします。
 
-リポジトリをクローン
+1. リポジトリをクローン
 ```bash
 git clone git@github.com:RareTECH-Mentor/MySQL_hands_on_check.git
 ```
 
-リポジトリのディレクトリに移動
+2. リポジトリのディレクトリに移動
 ```bash
 cd MySQL_hands_on_check
+```
+
+3. 環境設定ファイルの準備
+```bash
+cp .env.example .env
+
+エディタで環境変数を設定（必要に応じて編集）
+code .env
 ```
 
 
