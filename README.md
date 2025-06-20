@@ -1,7 +1,7 @@
 # MySQL_hands_on_check
 スキル面談用MySQLハンズオン
 
-## Setup
+## Setup✅
 
 以下の手順でMySQLのハンズオン環境をセットアップします。
 
@@ -27,7 +27,7 @@ docker exec -it mysql-container mysql -u root -p
 # パスワードは `rootpassword` です。
 ```
 
-## テーブル情報
+## テーブル情報💻
 
 usersテーブル
 | **id** | **username** | **email** |
