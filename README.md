@@ -3,18 +3,25 @@
 
 ## Setup
 
+以下の手順でMySQLのハンズオン環境をセットアップします。
+
+リポジトリをクローン
 ```bash
 git clone git@github.com:RareTECH-Mentor/MySQL_hands_on_check.git
 ```
 
+リポジトリのディレクトリに移動
 ```bash
 cd MySQL_hands_on_check
 ```
 
+
+Docker Composeを使用してMySQLコンテナを起動
 ```bash
 docker compose up -d --build
 ```
 
+MySQLコンテナに接続
 ```bash 
 docker exec -it mysql-container mysql -u root -p
 # パスワードは `rootpassword` です。
