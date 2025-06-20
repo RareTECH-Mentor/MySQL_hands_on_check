@@ -24,7 +24,7 @@ docker compose up -d --build
 MySQLコンテナに接続
 ```bash 
 docker exec -it mysql-container mysql -u root -p
-# パスワードは `rootpassword` です。
+# パスワードは rootpassword です。
 ```
 
 ## テーブル情報💻
