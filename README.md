@@ -18,18 +18,15 @@ cd MySQL_hands_on_check
 3. 環境設定ファイルの準備
 ```bash
 cp .env.example .env
-
-エディタで環境変数を設定（必要に応じて編集）
-code .env
 ```
 
 
-Docker Composeを使用してMySQLコンテナを起動
+4. Docker Composeを使用してMySQLコンテナを起動
 ```bash
 docker compose up -d --build
 ```
 
-MySQLコンテナに接続
+5. MySQLコンテナに接続
 ```bash 
 docker exec -it mysql-container mysql -u root -p
 # パスワードは rootpassword です。
