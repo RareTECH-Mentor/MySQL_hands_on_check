@@ -15,12 +15,6 @@ git clone git@github.com:RareTECH-Mentor/MySQL_hands_on_check.git
 cd MySQL_hands_on_check
 ```
 
-3. 環境設定ファイルの準備
-```bash
-cp .env.example .env
-```
-
-
 4. Docker Composeを使用してMySQLコンテナを起動
 ```bash
 docker compose up -d --build
